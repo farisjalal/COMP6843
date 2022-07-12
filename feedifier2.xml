@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE title [
+<!ENTITY % local_dtd SYSTEM "file:///usr/share/yelp/dtd/docbookx.dtd">
+%local_dtd;
+]>
 <rss version="2.0">
 <channel>
     <title>The Blog</title>
@@ -6,7 +10,7 @@
     <description>A blog about things</description>
     <lastBuildDate>Mon, 03 Feb 2014 00:00:00 -0000</lastBuildDate>
     <item>
-        <title xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include parse="text" href="file:/flag"/></title>
+        <title>&local_dtd;</title>
         <link>http://example.com</link>
         <description>a post</description>
         <author>author@example.com</author>
